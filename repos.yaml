@@ -2,7 +2,7 @@ repos:
   - id: /.*/
     workflow: terragrunt
     pre_workflow_hooks:
-      - run: terragrunt-atlantis-config generate --output atlantis.yaml --autoplan --parallel --terraform-version 1.0.0
+      - run: terragrunt-atlantis-config generate --output atlantis.yaml --autoplan --automerge --parallel --create-workspace
         description: Generating configs
 workflows:
   terragrunt:
