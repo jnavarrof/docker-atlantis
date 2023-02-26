@@ -1,6 +1,7 @@
 REGISTRY=janafe
 APP=docker-atlantis
 VERSION=0.22.3
+URL=https://adba-94-192-79-40.eu.ngrok.io
 REPOS_ALLOW=github.com/jnavarrof/terragrunt-atlantis-example
 
 .PHONY: help
